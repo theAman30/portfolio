@@ -201,6 +201,51 @@ a {
   line-height: 2;
 }
 
+/* to be edited after few days  27/06/2024 */
+.skills {
+  display: grid;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
+  grid-template-rows: 0.7fr 0.7fr;
+  margin-top: -3rem;
+  gap: 1rem;
+}
+
+.skill img {
+  max-width: 50px;
+}
+
+.skill p {
+  font-size: 1.9rem;
+  margin-top: 0.8rem;
+}
+
+@media only screen and (max-width: 398px) {
+  .skills {
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr;
+    grid-template-rows: 0.7fr 0.7fr;
+  }
+}
+/* to be edited after few days  27/06/2024 */
+
+
+/* soft skills secction starts here  */
+.softskills {
+  margin-top: 3rem;
+  /* margin-left: 0.8rem; */
+  font-size: 1.7rem;
+}
+
+.skillslist {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  line-height: 2;
+}
+
+
+
+
 /* Reference */
 .refItem {
   margin-top: 2rem;
