@@ -204,7 +204,7 @@ a {
 /* to be edited after few days  27/06/2024 */
 .skills {
   display: grid;
-  grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr;
   grid-template-rows: 0.7fr 0.7fr;
   margin-top: -3rem;
   gap: 1rem;
