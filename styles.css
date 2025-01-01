@@ -21,7 +21,6 @@ html::-webkit-scrollbar {
 
 html::-webkit-scrollbar-track {
   background: transparent;
-
 }
 
 html::-webkit-scrollbar-thumb {
@@ -242,7 +241,6 @@ a {
 }
 /* to be edited after few days  27/06/2024 */
 
-
 /* soft skills secction starts here  */
 .softskills {
   margin-top: 5rem;
@@ -256,9 +254,6 @@ a {
   margin-left: 2rem;
   line-height: 2;
 }
-
-
-
 
 /* Reference */
 .refItem {
@@ -303,7 +298,6 @@ a {
   }
 }
 
-
 /* Interests */
 
 .interests {
@@ -332,7 +326,6 @@ a {
 .interest_item svg {
   width: 2rem;
 }
-
 
 @media only screen and (max-width: 768px) {
   .interests {
@@ -432,8 +425,6 @@ hr {
   border: 1px solid var(--primary-color);
   border-radius: 35px;
 }
-
-
 
 /* projects section styling starts from here  */
 .projects {
