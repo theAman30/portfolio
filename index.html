@@ -15,6 +15,9 @@
 
   <!-- animate.css file linking  -->
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+
+  <!-- AOS CSS file linking -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 </head>
 
 <body>
@@ -38,53 +41,47 @@
             transforming ideas into visually stunning and responsive web
             applications.
           </p>
-          <a
-            class="downloadBtn"
-            href="resume.pdf"
-            id="downloadButton"
-            data-aos="flip-up"
-            >Download Button</a
-          >
+          <a class="downloadBtn" href="resume.pdf" id="downloadButton" data-aos="flip-up">Download Button</a>
         </div>
       </div>
-    </div>    
+    </div>
     <!-- Profile section ends here  -->
 
     <!-- left side content starts from here -->
-    <div class="group1_leftSide">
+    <div class="group1_leftSide" data-aos="fade-up">
       <!-- to be edited after few days  27/06/2024 -->
-      <h3 class="title">Proficient in</h3>
+      <h3 class="title" data-aos="fade-right">Proficient in</h3>
       <div>
         <div class="skills">
-          <div class="skill">
+          <div class="skill" data-aos="zoom-in" data-aos-delay="100">
             <img src="skillsImagepng/html_png.png" alt="HTML" />
             <p>HTML</p>
           </div>
-          <div class="skill">
+          <div class="skill" data-aos="zoom-in" data-aos-delay="200">
             <img src="skillsImagepng/css_png.png" alt="CSS" />
             <p>CSS</p>
           </div>
-          <div class="skill">
+          <div class="skill" data-aos="zoom-in" data-aos-delay="300">
             <img src="skillsImagepng/js_png.png" alt="JavaScript" />
             <p>JavaScript</p>
           </div>
-          <div class="skill">
+          <div class="skill" data-aos="zoom-in" data-aos-delay="400">
             <img src="skillsImagepng/react_png.png" alt="reactJs" />
             <p>reactJS</p>
           </div>
-          <div class="skill">
+          <div class="skill" data-aos="zoom-in" data-aos-delay="500">
             <img src="skillsImagepng/bootstrap_png.png" alt="Bootstrap" />
             <p>Bootstrap</p>
           </div>
-          <div class="skill">
+          <div class="skill" data-aos="zoom-in" data-aos-delay="600">
             <img src="skillsImagepng/mysql_png.png" alt="MySQL" />
             <p>MySQL</p>
           </div>
         </div>
-        <!-- soft skills section  -->
-        <div class="softskills title">
+        <!-- soft skills section -->
+        <div class="softskills title" data-aos="fade-left">
           <div class="softskill">Soft Skills</div>
-          <ul class="skillslist description">
+          <ul class="skillslist description" data-aos="fade-up">
             <li>Communication</li>
             <li>Problem Solving</li>
             <li>Time Management</li>
@@ -94,27 +91,9 @@
       </div>
       <!-- to be edited after few days  27/06/2024 -->
 
-      <!-- to be delete after editing few thing  -->
-      <!-- <div class="skills">
-          <h3 class="title">Expertise</h3>
-           <ul class="skillsList description">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>reactJS</li>
-            <li>Bootstrap</li>
-            <li>C</li>
-            <li>Python with dJango</li>
-            <li>Communication</li>
-            <li>Problem Solving</li>
-            <li>Database Management (MySQL)</li>
-          </ul>
-        </div> -->
-      <!-- to here  -->
-
-      <div class="education">
-        <h3 class="title">Education</h3>
-        <div class="eduItem">
+      <div class="education" data-aos="fade-up">
+        <h3 class="title" data-aos="fade-right">Education</h3>
+        <div class="eduItem" data-aos="fade-up" data-aos-delay="100">
           <p class="item_preTitle">2018-2019 to 2020-2021</p>
           <h4 class="item_title">High School & Intermediate</h4>
           <p class="item_subtitle">
@@ -122,7 +101,7 @@
             Sarnath, Varanasi
           </p>
         </div>
-        <div class="eduItem">
+        <div class="eduItem" data-aos="fade-up" data-aos-delay="200">
           <p class="item_preTitle">2021-2024</p>
           <h4 class="item_title">Diploma in CSE</h4>
           <p class="item_subtitle">
@@ -130,7 +109,7 @@
             Chakia, Chandauli
           </p>
         </div>
-        <div class="eduItem">
+        <div class="eduItem" data-aos="fade-up" data-aos-delay="300">
           <p class="item_preTitle">2024-2027</p>
           <h4 class="item_title">B.tech (CSE)</h4>
           <p class="item_subtitle">
@@ -139,23 +118,25 @@
           </p>
         </div>
       </div>
-      <div class="certification">
-        <h3 class="title">Certification</h3>
-        <div class="certification_item">
+      <div class="certification" data-aos="fade-up">
+        <h3 class="title" data-aos="fade-right">Certification</h3>
+        <div class="certification_item" data-aos="fade-up" data-aos-delay="100">
           <p class="item_preTitle">2022</p>
           <h4 class="item_title">Responsive Web Design</h4>
           <p class="description">
-            This Responsive Web Design Certificate is from "freeCodeCamp.org",
-            In this I utilize my knowledge of HTML, CSS & JS to make
-            responsive web pages and got this certificate after completing
-            1033 missions and 5 projects.
+            This Responsive Web Design Certificate is from "freeCodeCamp.org", In
+            this I utilize my knowledge of HTML, CSS & JS to make responsive web
+            pages and got this certificate after completing 1033 missions and 5
+            projects.
           </p>
           <a href="https://www.freecodecamp.org/certification/theaman30/responsive-web-design" target="_blank"
-            class="showCertificate" id="showCertificate">Show credential <i
-              class="fa-solid fa-up-right-from-square"></i></a>
+            class="showCertificate" id="showCertificate" data-aos="zoom-in">
+            Show credential <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
         </div>
       </div>
     </div>
+
     <!-- left section ends here  -->
 
     <!-- right section content starts from here  -->
@@ -167,10 +148,14 @@
           <h4 class="item_title">NearDekho</h4>
           <p class="item_subtitle">Web Developer</p>
           <p class="description">
-            Developed and maintained responsive web applications using HTML, CSS, JavaScript, and Tailwind CSS, ensuring cross-browser compatibility and optimal user experience. <br> <br>
-            Collaborated with stakeholders to implement UI/UX designs, enhancing the overall aesthetic and functionality of the website. <br> <br>
-            Implemented SEO best practices that contributed to a 20% increase in organic traffic within three months. <br> <br>
-            Participated in code reviews and team meetings, promoting a culture of continuous improvement and collaboration.
+            Developed and maintained responsive web applications using HTML, CSS, JavaScript, and Tailwind CSS, ensuring
+            cross-browser compatibility and optimal user experience. <br> <br>
+            Collaborated with stakeholders to implement UI/UX designs, enhancing the overall aesthetic and functionality
+            of the website. <br> <br>
+            Implemented SEO best practices that contributed to a 20% increase in organic traffic within three months.
+            <br> <br>
+            Participated in code reviews and team meetings, promoting a culture of continuous improvement and
+            collaboration.
           </p>
         </div>
         <!-- <div class="exp_item">
@@ -311,4 +296,5 @@
     AOS.init();
   </script>
 </body>
+
 </html>
