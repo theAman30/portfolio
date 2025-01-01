@@ -20,28 +20,34 @@
 <body>
   <div class="container">
     <!-- Profile section starts from here  -->
-    <div class="profile">
+    <div class="profile" data-aos="fade-up">
       <div class="profile_container">
-        <div class="profile_profileImg">
+        <div class="profile_profileImg" data-aos="zoom-in">
           <img src="image/image1.jpeg" alt="Aman Srivastava" />
         </div>
         <div>
-          <h1 class="profileName">
+          <h1 class="profileName" data-aos="fade-right">
             <span class="profileName_firstName">Aman</span>
             <span class="profileName_lastName" id="element"></span>
           </h1>
-          <p class="profileTitle" id="secondElement"></p>
-          <p class="description">
+          <p class="profileTitle" id="secondElement" data-aos="fade-left"></p>
+          <p class="description" data-aos="fade-up">
             I'm a dedicated and creative Frontend Developer with a passion for
-            crafting exceptional user experiences. With a keen eye for design
-            and a commitment to writing clean, efficient code, I specialize in
+            crafting exceptional user experiences. With a keen eye for design and
+            a commitment to writing clean, efficient code, I specialize in
             transforming ideas into visually stunning and responsive web
             applications.
           </p>
-          <a class="downloadBtn" href="resume.pdf" id="downloadButton">Download Button</a>
+          <a
+            class="downloadBtn"
+            href="resume.pdf"
+            id="downloadButton"
+            data-aos="flip-up"
+            >Download Button</a
+          >
         </div>
       </div>
-    </div>
+    </div>    
     <!-- Profile section ends here  -->
 
     <!-- left side content starts from here -->
@@ -297,6 +303,12 @@
       strings: ["Web Designer", "Video Editor", "Front End Developer"],
       typeSpeed: 60,
     });
+  </script>
+
+  <!-- AOS  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 </body>
 </html>
