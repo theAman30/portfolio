@@ -5,14 +5,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <!-- title  -->
   <title>Projects | Aman Srivastava</title>
 
   <!-- External CSS file linking  -->
   <link rel="stylesheet" href="showallprojects.css" />
+
+  <!-- AOS CSS file linking  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 </head>
 
 <body>
-  <h1 class="heading"><span>Projects</span></h1>
+  <h1 class="heading" data-aos="zoom-in" data-aos-duration="1000">
+    <span>Projects</span>
+  </h1>
 
   <div class="container">
     <div class="row1">
@@ -86,6 +93,12 @@
 
   <!-- Font awesome linking  -->
   <script src="https://kit.fontawesome.com/9838733d2a.js" crossorigin="anonymous"></script>
+
+  <!-- AOS js file linking -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
