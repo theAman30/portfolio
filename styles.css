@@ -127,7 +127,7 @@ a {
   }
 }
 
-/* Profile */
+/* Profile section styling starts from here */
 .profile_container {
   display: flex;
   gap: 2rem;
@@ -150,7 +150,6 @@ a {
   font-weight: 700;
   font-size: clamp(2.5rem, 15vw, 7rem);
   text-transform: uppercase;
-  /* display: block; */
 }
 
 .profileTitle {
@@ -160,7 +159,6 @@ a {
   display: inline-block;
 }
 .downloadBtn {
-  /* display: block; */
   background-color: var(--primary-color);
   position: relative;
   top: 20px;
@@ -175,17 +173,14 @@ a {
 
 .downloadBtn:hover {
   background-color: var(--text-color);
-  color: black;
   transition: all 0.5s linear;
   border: 1px solid var(--text-color);
   border-radius: 35px;
-  /* transform: scale(2); */
 }
 
 @media only screen and (max-width: 768px) {
   .profile_container {
     flex-direction: column;
-    /* margin: auto; */
   }
 
   .profile_profileImg {
@@ -193,7 +188,7 @@ a {
   }
 }
 
-/* Expertise*/
+/* Expertise section styling starts from here*/
 .skillsList {
   margin-top: 1rem;
   margin-left: 2rem;
@@ -239,10 +234,9 @@ a {
   }
 }
 
-/* soft skills secction starts here  */
+/* soft skills section starts here  */
 .softskills {
   margin-top: 5rem;
-  /* margin-left: 0.8rem; */
   font-size: 1.7rem;
 }
 
@@ -296,8 +290,7 @@ a {
   }
 }
 
-/* Interests */
-
+/* Interests section styling starts from here*/
 .interests {
   position: relative;
   top: 10px;
@@ -331,7 +324,7 @@ a {
   }
 }
 
-/* Socials */
+/* Socials section styling starts form here */
 .social_items {
   margin-top: 2rem;
 }
