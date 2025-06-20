@@ -200,7 +200,6 @@ a {
   line-height: 2;
 }
 
-/* to be edited after few days  27/06/2024 */
 .skills {
   display: grid;
   grid-template-columns: 0.7fr 0.7fr 0.7fr;
@@ -222,9 +221,9 @@ a {
 
 .skill img {
   position: absolute;
-  width: 55px; /* Adjust size as needed */
-  height: 100px; /* Adjust size as needed */
-  object-fit: contain; /* Ensure image fits within the dimensions */
+  width: 55px;
+  height: 100px;
+  object-fit: contain;
 }
 
 .skill p {
@@ -239,7 +238,6 @@ a {
     grid-template-rows: 0.7fr 0.7fr;
   }
 }
-/* to be edited after few days  27/06/2024 */
 
 /* soft skills secction starts here  */
 .softskills {
