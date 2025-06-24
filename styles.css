@@ -271,6 +271,27 @@ a {
   margin-top: 2rem;
 }
 
+.item_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.badges {
+  display: flex;
+  gap: 8px;
+}
+
+.badge {
+  font-size: 12px;
+  color: #444;
+  background-color: #f0f0f0;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
 /* Awards */
 .awards {
   margin-top: 6.4rem;
