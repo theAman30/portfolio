@@ -346,8 +346,12 @@ a {
 }
 
 /* Socials section styling starts form here */
+.contact, .socials {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
 .social_items {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 .social_item {
   margin-top: 1.5rem;
